@@ -29,7 +29,10 @@
         <img src="assets/core-logo.png" alt="Core logo" />
         <span>Core Launcher</span>
       </a>
-      <nav class="nav-links">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        Menu
+      </button>
+      <nav class="nav-links" id="site-nav">
         <a href="#gallery">Gallery</a>
         <a href="#features">Features</a>
         <a href="#experience">Experience</a>
@@ -96,27 +99,27 @@
       </div>
       <div class="gallery-grid">
         <figure class="gallery-card screenshot-card">
-          <img src="assets/screenshots/Screenshot_20260301_000748.png" alt="Core app screenshot 1" />
+          <img src="assets/screenshots/Screenshot_20260301_000748.png" alt="Core app screenshot 1" loading="lazy" decoding="async" />
           <figcaption>Core interface screenshot 1</figcaption>
         </figure>
         <figure class="gallery-card screenshot-card">
-          <img src="assets/screenshots/Screenshot_20260301_000803.png" alt="Core app screenshot 2" />
+          <img src="assets/screenshots/Screenshot_20260301_000803.png" alt="Core app screenshot 2" loading="lazy" decoding="async" />
           <figcaption>Core interface screenshot 2</figcaption>
         </figure>
         <figure class="gallery-card screenshot-card">
-          <img src="assets/screenshots/Screenshot_20260301_000901.png" alt="Core app screenshot 3" />
+          <img src="assets/screenshots/Screenshot_20260301_000901.png" alt="Core app screenshot 3" loading="lazy" decoding="async" />
           <figcaption>Core interface screenshot 3</figcaption>
         </figure>
         <figure class="gallery-card screenshot-card">
-          <img src="assets/screenshots/Screenshot_20260301_000924.png" alt="Core app screenshot 4" />
+          <img src="assets/screenshots/Screenshot_20260301_000924.png" alt="Core app screenshot 4" loading="lazy" decoding="async" />
           <figcaption>Core interface screenshot 4</figcaption>
         </figure>
         <figure class="gallery-card screenshot-card">
-          <img src="assets/screenshots/Screenshot_20260301_000944.png" alt="Core app screenshot 5" />
+          <img src="assets/screenshots/Screenshot_20260301_000944.png" alt="Core app screenshot 5" loading="lazy" decoding="async" />
           <figcaption>Core interface screenshot 5</figcaption>
         </figure>
         <figure class="gallery-card screenshot-card">
-          <img src="assets/screenshots/Screenshot_20260301_001009.png" alt="Core app screenshot 6" />
+          <img src="assets/screenshots/Screenshot_20260301_001009.png" alt="Core app screenshot 6" loading="lazy" decoding="async" />
           <figcaption>Core interface screenshot 6</figcaption>
         </figure>
       </div>
@@ -248,9 +251,10 @@
           <p><strong>Supported devices:</strong> Android phones and tablets</p>
         </div>
         <div class="hero-cta">
-          <a class="btn btn-primary" href="#" aria-disabled="true">Play Store Link (Add URL)</a>
-          <a class="btn btn-secondary" href="#" aria-disabled="true">Direct APK Link (Add URL)</a>
+          <button class="btn btn-primary btn-disabled" type="button" disabled>Play Store (Coming Soon)</button>
+          <button class="btn btn-secondary btn-disabled" type="button" disabled>Direct APK (Coming Soon)</button>
         </div>
+        <p class="download-note">Download links will be published after release validation.</p>
       </div>
     </section>
 
