@@ -22,3 +22,8 @@
 - Created `C:\Users\prite\Documents\Core\play-data-safety-answer-sheet.md` with conservative Play Console answers plus release risks/action items.
 - Updated website privacy policy `C:\Users\prite\Documents\Core\privacy-policy.html` to reflect transitive SDK transparency and backup behavior.
 - Updated checklist `C:\Users\prite\Documents\Core\play-privacy-compliance-checklist.md` to require merged-manifest and AD_ID/backups verification each release.
+
+## Session Summary (2026-03-01 - Website Download CTA)
+- Updated website download section to Play Store-only distribution.
+- Removed Direct APK option from `C:\Users\prite\Documents\Core\index.html`.
+- Added Play Store URL CTA: `https://play.google.com/store/apps/details?id=com.scinecis.launcher`.

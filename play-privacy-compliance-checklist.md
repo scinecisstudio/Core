@@ -35,6 +35,7 @@ Use this checklist before every Play Store submission.
 - [ ] Store listing text does not conflict with privacy policy or in-app behavior.
 - [ ] Prominent disclosures are shown before sensitive data access where required.
 - [ ] Permission rationale shown to users matches actual feature behavior.
+- [ ] Website/app download CTA points to the current official channel (Play Store URL) and does not advertise unsupported direct APK distribution.
 
 ## 6. Account and Deletion Requirements
 - [ ] If user account creation/sign-in is introduced, account deletion flows are implemented per Play policy.

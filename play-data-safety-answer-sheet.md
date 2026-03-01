@@ -3,6 +3,7 @@
 Last reviewed: March 1, 2026
 Codebase audited: `C:\Users\prite\Documents\CoreApp`
 Package: `com.scinecis.launcher`
+Website distribution note: Play Store-only CTA on website (Direct APK option removed on March 1, 2026).
 
 ## Evidence Sources
 - App manifest: `app/src/main/AndroidManifest.xml`
